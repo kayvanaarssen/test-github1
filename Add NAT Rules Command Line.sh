@@ -42,7 +42,7 @@ Change the commit comment:
 ## commit comment "Comment what you have changed"
 
 ############ Code to execute on Router ############
-
+'''
 configure
 set firewall group address-group WAN_IN address 192.168.1.160 
 
@@ -64,4 +64,4 @@ set service nat rule 21 protocol tcp
 set service nat rule 21 type destination
 
 commit comment “Comment what you have changed” 
-save
+save'''
